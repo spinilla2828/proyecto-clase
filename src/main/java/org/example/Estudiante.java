@@ -4,9 +4,9 @@ public class Estudiante {
     private String nombre;
     private byte edad;
 
-    public Estudiante(String nombre, byte edad) {
+    public Estudiante(String nombre) {
         this.nombre = nombre;
-        this.edad = edad;
+        this.edad = 18;
     }
 
     public String getNombre() {
